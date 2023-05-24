@@ -60,7 +60,7 @@ export default function App() {
             <Text style={styles.comentarios}>Ver los 5 comentarios</Text>
       </View>
       <View style={styles.menu_container}>
-        <Image style={styles.menu} source={require('/assets/imgmenu1.png')} />
+        <Image style={styles.menu1} source={require('/assets/imgmenu1.png')} />
         <Image style={styles.menu} source={require('/assets/imgmenu2.png')} />
         <Image style={styles.menu} source={require('/assets/imgmenu3.png')} />
         <Image style={styles.menu} source={require('/assets/imgmenu4.png')} />
@@ -82,20 +82,20 @@ const styles = StyleSheet.create({
   paragraph: {
     position: 'absolute',
     fontFamily: 'script mt bold',
-    top: 50,
+    top: '7%',
     left: 10,
     fontSize: 25,
     fontWeight: 'bold',
   },
   iconosArriba: {
-    left: 300,
+    left: '1050%',
     marginLeft: 10,
     width: 30,
     height: 30,
   },
   contenedorIconos: {
     flexDirection: 'row',
-    top: -50,
+    top: '-17%',
   },
   imgcontainer: {
     flexDirection: 'row',
@@ -104,16 +104,21 @@ const styles = StyleSheet.create({
   },
   menu_container: {
     flexDirection: 'row',
-    top: 70,
+    top: '20%',
+  },
+  menu1: {
+    marginLeft: '5%',
+    width: 30,
+    height: 30,
   },
   menu: {
-    marginLeft: 40,
+    marginLeft: '13%',
     width: 30,
     height: 30,
   },
   menuperfil: {
     borderRadius: 40,
-    marginLeft: 30,
+    marginLeft: '14%',
     width: 34,
     height: 34,
 },
@@ -186,8 +191,8 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   img: {
-    height: 350,
-    width: 400,
+    height: '45%',
+    width: '100%',
   },
   containerlogo: {
     flexDirection: 'row',
@@ -199,7 +204,7 @@ const styles = StyleSheet.create({
     height: 30,
   },
   etiqueta: {
-    marginLeft: 235,
+    marginLeft: '60%',
     width: 30,
     height: 30,
   },
@@ -228,5 +233,4 @@ const styles = StyleSheet.create({
     color: '#868686',
     fontWeight: 'thin',
   },
-
 });
